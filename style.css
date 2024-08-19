@@ -446,6 +446,10 @@ section .title::after{
 .teams .carousel .card:hover img{
     border-color: #fff;
 }
+.underline{
+   text-decoration: underline;
+    font-weight: bold;
+}
 .owl-dots{
     text-align: center;
     margin-top: 20px;
