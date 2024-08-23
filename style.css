@@ -171,8 +171,6 @@ section .title::after{
 /* home section styling */
 .home{
     display: flex;
-    /* background: url("images/banner.jpg") no-repeat center; */
-    /* background: url(images/black.jpg) no-repeat; */
     height: 100vh;
     color: white;
     background-color: black;
@@ -741,14 +739,31 @@ footer span a:hover{
 }
 
 @media (max-width: 768px) {
-    .teams .carousel .card {
-        width: 100%; /* Display one card at a time */
-        margin-bottom: 20px;
+    .home {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
     }
 
-    /* Adjust the height if necessary */
-    .teams .carousel .card {
-        height: auto;
-        padding: 20px;
+    .picture {
+        margin: 0; /* Reset margin */
+        margin-top: 2rem; /* Add some space above the picture */
+    }
+
+    .picture img {
+        height: 40vw; /* Responsive height based on viewport width */
+        width: 40vw; /* Responsive width based on viewport width */
+        max-height: 300px; /* Adjust max height for smaller screens */
+        max-width: 300px; /* Adjust max width for smaller screens */
+    }
+
+    .home-content {
+        margin-top: 2rem;
+        text-align: center; /* Center the text */
+    }
+
+    .home .max-width {
+        flex-direction: column;
+        align-items: center;
     }
 }
