@@ -755,10 +755,10 @@ footer span a:hover{
     }
 
     .picture img {
-        height: 40vw; /* Responsive height based on viewport width */
-        width: 40vw; /* Responsive width based on viewport width */
-        max-height: 300px; /* Adjust max height for smaller screens */
-        max-width: 300px; /* Adjust max width for smaller screens */
+        height: 50vw; /* Increase height based on viewport width */
+        width: 50vw; /* Increase width based on viewport width */
+        max-height: 400px; /* Adjust max height for smaller screens */
+        max-width: 400px; /* Adjust max width for smaller screens */
     }
 
     .home-content {
