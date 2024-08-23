@@ -418,6 +418,7 @@ section .title::after{
     text-align: center;
     overflow: hidden;
     transition: all 0.3s ease;
+    height: 350px;
 }
 .teams .carousel .card:hover{
     background: #800000;;
@@ -572,7 +573,7 @@ section .title::after{
   transition: all 0.3s ease;
 }
 .right form .button-area button:hover{
-  color: #880085;
+  color: #800000;
   background: none;
 }
 /* footer section styling */
@@ -671,6 +672,7 @@ footer span a:hover{
     }
 }
 
+
 @media (max-width: 690px) {
     .max-width{
         padding: 0 23px;
@@ -717,5 +719,36 @@ footer span a:hover{
         width: 35px;
         font-size: 23px;
         line-height: 38px;
+    }
+}
+
+@media (max-width: 750px) {
+    .services .serv-content .card {
+        width: 100%; 
+        padding: 30px 15px;
+        margin-bottom: 20px; 
+        height: auto; 
+    }
+    
+   
+    .services .serv-content .card .text {
+        font-size: 1rem; 
+    }
+    
+    .services .serv-content .card p {
+        font-size: 0.9rem; 
+    }
+}
+
+@media (max-width: 768px) {
+    .teams .carousel .card {
+        width: 100%; /* Display one card at a time */
+        margin-bottom: 20px;
+    }
+
+    /* Adjust the height if necessary */
+    .teams .carousel .card {
+        height: auto;
+        padding: 20px;
     }
 }
