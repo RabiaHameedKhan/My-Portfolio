@@ -751,18 +751,20 @@ footer span a:hover{
     .picture {
         margin: 0; /* Reset margin */
         margin-top: 2rem; /* Add some space above the picture */
+        order: 1; /* Ensure the picture comes first */
     }
 
     .picture img {
         height: 40vw; /* Responsive height based on viewport width */
         width: 40vw; /* Responsive width based on viewport width */
-        max-height: 400px; /* Adjust max height for smaller screens */
-        max-width: 400px; /* Adjust max width for smaller screens */
+        max-height: 300px; /* Adjust max height for smaller screens */
+        max-width: 300px; /* Adjust max width for smaller screens */
     }
 
     .home-content {
         margin-top: 2rem;
         text-align: center; /* Center the text */
+        order: 2; /* Ensure the text comes after the picture */
     }
 
     .home .max-width {
