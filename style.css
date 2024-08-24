@@ -749,22 +749,22 @@ footer span a:hover{
     }
 
     .picture {
-        margin: 0; /* Reset margin */
-        margin-top: 2rem; /* Add some space above the picture */
-        order: 1; /* Ensure the picture comes first */
+        margin: 0; 
+        margin-top: 2rem; 
+        order: 1;
     }
 
     .picture img {
-        height: 40vw; /* Increase height based on viewport width */
-        width: 40vw; /* Increase width based on viewport width */
-        max-height: 400px; /* Adjust max height for smaller screens */
-        max-width: 400px; /* Adjust max width for smaller screens */
+        height: 90vw;
+        width: 90vw; 
+        max-height: 700px; 
+        max-width: 700px; 
     }
 
     .home-content {
         margin-top: 2rem;
-        text-align: center; /* Center the text */
-        order: 2; /* Ensure the text comes after the picture */
+        text-align: center; 
+        order: 2; 
     }
 
     .home .max-width {
