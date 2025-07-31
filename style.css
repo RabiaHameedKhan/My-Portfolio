@@ -186,6 +186,8 @@ section .title::after{
     border-radius: 50%;
     height: 450px;
     width: 450px;
+    /* aspect-ratio: 3/2; */
+    /* object-fit:cover ; */
 }
 .home .max-width{
   width: 100%;
@@ -391,21 +393,23 @@ section .title::after{
     width: 90%;
 }
 .skills-content .right .css::before{
-    width: 70%;
+    width: 90%;
 }
 .skills-content .right .js::before{
-    width: 60%;
+    width: 80%;
 }
 .skills-content .right .bs::before{
-    width: 60%;
+    width: 50%;
 }
 .skills-content .right .csharp::before{
-    width: 40%;
+    width: 50%;
 }
 .skills-content .right .react::before{
-    width: 40%;
+    width: 80%;
 }
-
+.skills-content .right .tailwind::before{
+    width: 80%;
+}
 
 
 /* projects section styling */
