@@ -410,6 +410,9 @@ section .title::after{
 .skills-content .right .tailwind::before{
     width: 80%;
 }
+.skills-content .right .mui::before{
+    width: 80%;
+}
 
 
 /* projects section styling */
