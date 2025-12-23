@@ -401,18 +401,19 @@ section .title::after{
 .skills-content .right .bs::before{
     width: 50%;
 }
-.skills-content .right .csharp::before{
-    width: 50%;
+.skills-content .right .vercel::before{
+    width: 80%;
 }
 .skills-content .right .react::before{
+    width: 80%;
+}
+.skills-content .right .next::before{
     width: 80%;
 }
 .skills-content .right .tailwind::before{
     width: 80%;
 }
-.skills-content .right .mui::before{
-    width: 80%;
-}
+
 
 
 /* projects section styling */
